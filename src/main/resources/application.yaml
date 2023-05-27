@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 112.74.176.108
+    port: 5672
+    username: admin
+    password: admin
+    #交换机确认消息
+    publisher-confirm-type: correlated
+    #交换机退回消息
+    publisher-returns: true
